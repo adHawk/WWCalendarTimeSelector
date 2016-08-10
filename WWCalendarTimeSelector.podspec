@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/weilsonwonder/WWCalendarTimeSelector"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Weilson Wonder" => "weilson@live.com" }
-  s.social_media_url   = "https://sg.linkedin.com/in/weilson"
+ # s.social_media_url   = "https://sg.linkedin.com/in/weilson"
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/weilsonwonder/WWCalendarTimeSelector.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/adHawk/WWCalendarTimeSelector.git", :tag => s.version }
   s.source_files  = "Classes", "Sources/*.swift"
   s.resource_bundles = {
     'WWCalendarTimeSelectorStoryboardBundle' => ['Sources/*.storyboard']
