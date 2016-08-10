@@ -559,7 +559,7 @@ public class WWCalendarTimeSelector: UIViewController, UITableViewDelegate, UITa
     @IBOutlet private weak var selTimeHeightConstraint: NSLayoutConstraint!
     
     // Private Variables
-    private let selAnimationDuration: NSTimeInterval = 0.4
+    private let selAnimationDuration: NSTimeInterval = 0.0
     private let selInactiveHeight: CGFloat = 48
     private var portraitContainerWidth: CGFloat { return optionLayoutWidth ?? optionLayoutWidthRatio * portraitWidth }
     private var portraitTopContainerHeight: CGFloat { return optionShowTopContainer ? (optionLayoutHeight ?? optionLayoutHeightRatio * portraitHeight) * optionLayoutPortraitRatio : 0 }
